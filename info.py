@@ -11,6 +11,7 @@ class Config(object):
     BOT_START_TIME = time.time()
     OWNER    = int(os.environ.get("OWNER", "1841914911"))  # ⚠️ Required
     SUDO = list(map(int, os.environ.get("SUDO", "1841914911 7374966263").split()))  # ⚠️ Required
+    LOGGER = int(os.environ.get("LOGGER", -1002094142057) 
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
     PORT = int(os.environ.get("PORT", "8080"))
