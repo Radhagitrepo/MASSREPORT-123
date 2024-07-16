@@ -42,7 +42,7 @@ class Bot (Client):
         logging.info(f"✅ {me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}. ✅")
 
 
-        await self.send_message(Config.LOGGER, f"** {me.first_name}  𝖨𝖲 𝖲𝖳𝖠𝖱𝖳𝖤𝖣 SUCCESSFULLY 💥BY »[𝐌ʀ. 𝐁ʀᴏᴋᴇɴ](http://t.me/aboutbrokenx) **")
+        await self.send_message(Config.OWNER, f"** {me.first_name}  𝖨𝖲 𝖲𝖳𝖠𝖱𝖳𝖤𝖣 SUCCESSFULLY 💥BY »[𝐌ʀ. 𝐁ʀᴏᴋᴇɴ](http://t.me/aboutbrokenx) **")
 
         
     async def stop(self, *args):
