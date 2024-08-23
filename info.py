@@ -3,14 +3,14 @@ import time
 
 class Config(object):
     # Pyrogram Client
-    API_ID    = int(os.environ.get("API_ID", "27649783"))  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "834fd6015b50b781e0f8a41876ca95c8") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7254818663:AAF9cKBKhuo9ufpAPdah1qQpcTwsl0B43h8") # ⚠️ Required
+    API_ID    = int(os.environ.get("API_ID", "21250782"))  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "458eddfa15ca2c67a2c299d925b6a71e") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7481527873:AAFysk-3Aw4I8dUKOdOsZe1SlLFnjEFO_Mk") # ⚠️ Required
     
     # Other Configs
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "1841914911"))  # ⚠️ Required
-    SUDO = list(map(int, os.environ.get("SUDO", "1841914911 7374966263").split()))  # ⚠️ Required
+    OWNER    = int(os.environ.get("OWNER", "7011045471"))  # ⚠️ Required
+    SUDO = list(map(int, os.environ.get("SUDO", "7011045471 6931140424").split()))  # ⚠️ Required
     
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
